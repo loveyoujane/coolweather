@@ -21,19 +21,19 @@ public class County extends DataSupport {
     public String getCountyName(){
         return  countyName;
     }
-    public void setCountyName(){
+    public void setCountyName(String countyName){
         this.countyName = countyName;
     }
     public String getWeatherId(){
         return weatherId;
     }
-    public void setWeatherId(){
+    public void setWeatherId(String weatherId){
         this.weatherId = weatherId;
     }
     public int getCityId(){
         return cityId;
     }
-    public void setCityId(){
+    public void setCityId(int cityId){
         this.cityId = cityId;
     }
 
