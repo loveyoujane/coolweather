@@ -115,7 +115,7 @@ public class ChooseAreaFragment extends Fragment {
 
     }
     /**
-     * 查全国的省份
+     * 查全国的省份，优先从数据库查，没有查到再去服务器查，下面类似
      */
     private void queryProvinces(){
         titleText.setText("中国");
